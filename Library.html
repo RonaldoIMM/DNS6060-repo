@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>Library Registration</title>
+</head>
+<body bgcolor="#66d9ff">
+    <img src = "library.jpg" alt = "Library" style="width:500px;height:200px;">
+    <h1>Welcome to the Library Registration Window. Please fill out the form to get started:</h1> 
+    <form action= Library.php method=POST>
+    <font color = "red">* Required </font><br>
+    <br>
+    <input type=radio name=stu_fac value=Student>Student
+    <input type=radio name=stu_fac value=Faculty>Faculty  <font color = "red">*</font><br>
+    <font color = "green">Note: Students can withdraw 5 books maximum for up to one week each. Faculty members can withdraw 10 books for up to two weeks each.</font><br>
+    <br>
+    Full Name: <input type="text" name="fullname"> <font color = "red">*</font><br>
+    <br>
+    E-mail: <input type="email" name="email"> <font color = "red">*</font><br>
+    <br>
+    <input type="submit" name="submit">
+    </form>
+</body>
+</html>
